@@ -1,0 +1,29 @@
+h2 {
+    font-size: 16pt;
+    font-style: italic;
+    text-decoration: underline;
+    padding-top: 1em;
+}
+
+ol.company-bullet > li {
+    list-style-type: "※";
+    padding-left: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.company-name ~ ul > li {
+    list-style-type: "►";
+    padding-left: 0.5em;
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+.years {
+    font-style: italic;
+}
+
+.education span {
+    font-weight: bold;
+}
